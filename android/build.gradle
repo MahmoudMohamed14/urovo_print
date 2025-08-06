@@ -23,7 +23,8 @@ apply plugin: 'com.android.library'
 apply from: './resolve_dependencies.gradle'
 
 android {
-    compileSdkVersion 31
+     namespace 'com.urovo.print'
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
